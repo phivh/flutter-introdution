@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.content {
+				text-align: left; max-width: 800px; margin-left: auto; margin-right: auto;
+			}
+			.table tr td{
+				padding: 10px;
+			}
+			.fz16 {
+				font-size: 1rem;
+			}
+			.fz20 {
+				font-size: 1.25rem;
+			}
+			* {
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1><img src="fluuter-logo.png" alt="" /></h1>
+					<i>A cross-platform UI toolkit</i>
+				</section>
+				<section>
+					<div class="content">
+						<h2>Table of Contents</h2>
+						<ul>
+							<li>Introduction</li>
+							<li>Architectural</li>
+							<li>Comparation</li>
+							<li>Learn Flutter</li>
+							<li>Apps made with Flutter</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<div class="content">
+						<h2>Introduction</h2>
+						<ul>
+							<li>Flutter is an open-source UI SDK created by Google</li>
+							<li>The first version of Flutter was known as codename "Sky" and unveiled at the 2015</li>
+							<li>Initial release: May 2017</li>
+							<li>Official release: December 2018</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<div class="content">
+						<h2>Architectural</h2>
+						<ul>
+							<li>Flutter apps are written in the Dart language</li>
+							<li>Flutter's engine, written primarily in C++ and provides low-level rendering support using Google's Skia graphics library</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<section>
+						<div class="content">
+							<h2>Comparation</h2>
+							<h4>Flutter vs React Native vs Ionic</h4>
+							<table class="table" style="font-size: 1rem;">
+									<tr style="font-weight: bold;">
+										<td>Flutter</td>
+										<td>React Native</td>
+										<td>Ionic</td>
+									</tr>
+								<tr>
+									<td>Dart+Flutter</td>
+									<td>Javascript/Reactjs</td>
+									<td>Javascript/ Angular / Reactjs / Vuejs</td>
+								</tr>
+								<tr>
+									<td>Compiled Native Apps</td>
+									<td>Partly Compiled (UI Components) Native Apps</td>
+									<td>Webview hosted</td>
+								</tr>
+								<tr>
+									<td>Cross platform (mobile apps, web apps, desktop apps)</td>
+									<td>Mostly mobile apps (React Native Web)</td>
+									<td>Cross platform (mobile apps, web apps, desktop apps)</td>
+								</tr>
+								<tr>
+									<td>Developed By Google</td>
+									<td>Developed By Facebook</td>
+									<td>Developed By Ionic</td>
+								</tr>
+								<tr>
+									<td>Average Salary $87,820/Year </td>
+									<td>Average Salary $96,016/Year</td>
+									<td>Average Salary $108,857/year</td>
+								</tr>
+							</table>
+						</div>
+					</section>
+					<section>
+						<div class="content">
+							<h4>Flutter vs React Native vs Ionic</h4>
+							<img src="./trending.png" alt="" />
+						</div>
+					</section>
+				</section>
+				<section>
+					<div class="content">
+						<h2>Learn Flutter</h2>
+						<ul class="fz20">
+							<li>Like React Native, Flutter uses reactive-style views. However, while RN transpiles to native widgets, Flutter compiles all the way to native code</li>
+							<li>References:
+								<ol>
+									<li>Flutter.dev: https://flutter.dev/docs/get-started/flutter-for/react-native-devs</li>
+									<li>Online courses: Udemy, Youtube e.g</li>
+								</ol>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h2>Apps made with Flutter</h2>
+					<div style="text-align: center;">
+						<img src="./Apps made with Flutter.png" width="550px" alt="">	
+					</div>
+				</section>
+				<section>
+					<h1><img src="fluuter-logo.png" alt="" /></h1>
+					<h2>Thank you!</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
